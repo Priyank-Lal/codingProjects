@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+.Error-Handling-Div {
+    width: 420px;
+    height: 36px;
+    left: 942px;
+    top: 22px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: end;
+    position: absolute;
+
+    span {
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 100%;
+    }
+}
+
+.SelectNumberAndScoreDiv {
+    height: 150px;
+    width: 1280px;
+    top: 65px;
+    left: 80px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ScoreDiv {
+    height: 151px;
+    width: 135px;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+
+#ScoreNumber {
+    font-weight: 500;
+    font-size: 85px;
+    height: 110px;
+}
+
+.Total-Score {
+    font-weight: 500;
+    font-size: 18px;
+    height: 36px;
+    display: grid;
+    align-items: center;
+}
+
+.SelectNumberDiv {
+    width: 552px;
+    height: 138px;
+    text-align: right;
+    display: grid;
+    align-content: space-between;
+    justify-items: end;
+    align-items: end;
+
+    span {
+
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 100%;
+    }
+}
+
+.Numbers {
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    width: 552px;
+
+    button {
+        height: 72px;
+        width: 72px;
+        border: 1px solid black;
+        background-color: white;
+        font-size: 22px;
+        cursor: pointer;
+        font-weight: 700;
+
+    }
+
+    button:hover {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        transition: 0.5s;
+    }
+
+}
+
+.RollDiceDiv {
+    width: 250px;
+    height: 450px;
+    top: 290px;
+    left: 600px;
+    position: absolute;
+    display: grid;
+    justify-content: center;
+
+    img {
+        height: 220px;
+        width: 220px;
+    }
+}
+
+.RollDiceImgDiv {
+    display: grid;
+    text-align: center;
+    justify-items: center;
+
+    span {
+        font-size: 22px;
+        width: 229px;
+        height: 36px;
+        display: grid;
+        align-items: center;
+
+
+        font-weight: 400;
+    }
+}
+
+.RollDiceBtnDiv {
+    display: grid;
+    align-content: space-evenly;
+    justify-items: center;
+    margin-top: -25px;
+}
+
+.ResetScoreBtn {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 10px 18px;
+    width: 200px;
+    height: 45px;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.ResetScoreBtn:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.ShowRulesBtn {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 18px;
+    width: 200px;
+    height: 45px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.ShowRulesBtn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    border: 1px solid black;
+}
+
+.RulesDiv {
+    width: 795px;
+    height: 185px;
+    top: 776px;
+    left: 338px;
+    position: absolute;
+    padding: 25px;
+    background-color: #FBF1F1;
+}
+
+.heading {
+    width: 300px;
+    height: 36px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+    display: grid;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.MainRules {
+    width: 754px;
+    height: 108px;
+    gap: 4px;
+}
+
+.MainRulesSpan {
+    width: 790px;
+    height: 24px;
+    font-weight: 400;
+    margin: 7px 0px;
+    font-size: 17px;
+}
